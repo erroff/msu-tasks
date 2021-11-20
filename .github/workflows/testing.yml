@@ -1,0 +1,18 @@
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  tests:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        with:
+          repository: Photon94/msu-tasks-tests
+          token: ${{ secrets.TESTS_TOKEN }}
+      - run: |
+          cp msu-tasks-tests/simple/test.py msu-tasks/simple/test.py
+          python3 simple/test.py
+
+
