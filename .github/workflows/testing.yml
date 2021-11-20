@@ -8,7 +8,9 @@ jobs:
         with:
           repository: Photon94/msu-tasks-tests
           token: ${{ secrets.TESTS_TOKEN }}
+          path: msu-tasks-tests
       - run: |
+          ls -ax
           cp msu-tasks-tests/simple/test.py msu-tasks/simple/test.py
           python3 simple/test.py
 
