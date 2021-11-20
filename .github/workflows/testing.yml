@@ -1,7 +1,4 @@
-on:
-  pull_request:
-    branches:
-      - main
+on: [push]
 jobs:
   tests:
     runs-on: ubuntu-18.04
