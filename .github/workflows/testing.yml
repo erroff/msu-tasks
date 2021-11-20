@@ -14,7 +14,7 @@ jobs:
           ls msu-tasks-tests/ -auxl
           ls msu-tasks-tests/simple -auxl
           ls simple/ -auxl
-          cp msu-tasks-tests/simple/test.py simple/test.py
+          cp "msu-tasks-tests/simple/test.py" "simple/test.py"
           python3 simple/test.py
 
 
