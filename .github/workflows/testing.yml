@@ -1,7 +1,4 @@
-on:
-  push:
-    paths:
-      - '!.github/**'
+on: [push]
 
 jobs:
   tests:
