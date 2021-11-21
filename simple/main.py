@@ -8,15 +8,15 @@ def find(p: list, i) -> int:
     pass
 
 
-def min(p: list) -> int:
+def my_min(p: list) -> int:
     pass
 
 
-def max(p: list) -> int:
+def my_max(p: list) -> int:
     pass
 
 
-def sum(p: list) -> int:
+def my_sum(p: list) -> int:
     pass
 
 
