@@ -36,6 +36,17 @@ def lower(s: str) -> str:
     pass
 
 
+def upper(s: str) -> str:
+    pass
+
+
 def replace(s: str, old: str, new: str) -> str:
     pass
 
+
+def swapcase(s: str) -> str:
+    pass
+
+
+def split(s: str, separator: str) -> list[str]:
+    pass
