@@ -48,5 +48,5 @@ def swapcase(s: str) -> str:
     pass
 
 
-# def split(s: str, separator: str) -> list[str]:
-#     pass
+def my_split(s: str, sep: str) -> list[str]:
+    pass
