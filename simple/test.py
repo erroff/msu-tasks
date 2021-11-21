@@ -1,8 +1,8 @@
 import unittest
 import sys
 import os
-# if os.path.join(sys.path[0], '..') not in sys.path:
-#     sys.path.append(os.path.join(sys.path[0], '..'))
+if os.path.join(sys.path[0], '..') not in sys.path:
+    sys.path.append(os.path.join(sys.path[0], '..'))
 from simple.main import *
 __unittest = True
 
