@@ -15,12 +15,10 @@ def find(p: list, i) -> int:
 
 def my_min(p: list) -> int:
     return min(p)
-    pass
 
 
 def my_max(p: list) -> int:
     return max(p)
-    pass
 
 
 def my_sum(p: list) -> int:
@@ -63,6 +61,5 @@ def swapcase(s: str) -> str:
     pass
 
 
-def split(s: str, separator: str) -> list[str]:
+def my_split(s, sep):
     return s.split(separator)
-    pass
