@@ -10,9 +10,7 @@ jobs:
           repository: Photon94/msu-tasks-tests
           token: ${{ secrets.TESTS_TOKEN }}
           path: msu-tasks-tests
-      - name: Run default test caces
       - run: python3 simple/test.py
-      - name: Run privat test ceces
       - run: |
           cp "msu-tasks-tests/simple/test.py" "simple/test.py"
           python3 simple/test.py
