@@ -174,20 +174,20 @@ class SwapcaseTest(unittest.TestCase):
         s = ''
         self.assertEqual(swapcase(s), '')
 
-
-class SplitTest(unittest.TestCase):
-
-    def test_case1(self):
-        s = 'ex@mplE StrI#g'
-        self.assertEqual(split(s, ' '), ['ex@mplE', 'StrI#g'])
-
-    def test_case2(self):
-        s = 'example_string'
-        self.assertEqual(split(s, '_'), ['example', 'string'])
-
-    def test_case3(self):
-        s = ''
-        self.assertEqual(split(s, '_'), [''])
+#
+# class SplitTest(unittest.TestCase):
+#
+#     def test_case1(self):
+#         s = 'ex@mplE StrI#g'
+#         self.assertEqual(split(s, ' '), ['ex@mplE', 'StrI#g'])
+#
+#     def test_case2(self):
+#         s = 'example_string'
+#         self.assertEqual(split(s, '_'), ['example', 'string'])
+#
+#     def test_case3(self):
+#         s = ''
+#         self.assertEqual(split(s, '_'), [''])
 
 
 if __name__ == '__main__':
