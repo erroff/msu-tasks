@@ -10,10 +10,6 @@ jobs:
           token: ${{ secrets.TESTS_TOKEN }}
           path: msu-tasks-tests
       - run: |
-          ls -auxl
-          ls msu-tasks-tests/ -auxl
-          ls msu-tasks-tests/simple -auxl
-          ls simple/ -auxl
           cp "msu-tasks-tests/simple/test.py" "simple/test.py"
           python3 simple/test.py
 
