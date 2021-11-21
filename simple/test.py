@@ -4,6 +4,7 @@ import os
 if os.path.join(sys.path[0], '..') not in sys.path:
     sys.path.append(os.path.join(sys.path[0], '..'))
 from simple.main import *
+__unittest = True
 
 
 class SortTest(unittest.TestCase):
@@ -33,5 +34,4 @@ class FindTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)
-
+    unittest.main(verbosity=0)
